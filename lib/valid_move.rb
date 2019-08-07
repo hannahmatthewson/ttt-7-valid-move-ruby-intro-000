@@ -1,5 +1,7 @@
 def valid_move?(board, index)
 
+ def postion_taken?(board, index)
+ end
 end
 
 
