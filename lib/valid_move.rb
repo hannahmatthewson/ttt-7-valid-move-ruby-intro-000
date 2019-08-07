@@ -1,4 +1,5 @@
 def valid_move?(board, index)
+  board[index].to_i
   if board[index].between?(0, 8)
     return true
   else
